@@ -85,7 +85,7 @@ tk.Button(frm, text="nginx.conf", bg='#222', fg='#fff', relief='flat', width=12,
 tk.Button(frm, text="nginx odoo.conf", bg='#222', fg='#fff', relief='flat', width=12, command=lambda:openFile('/etc/nginx/conf.d/odoo.conf')).grid(column=2, row=7)
 tk.Button(frm, text="odoo.conf", bg='#222', fg='#fff', relief='flat', width=12, command=lambda:openFile('/etc/odoo.conf')).grid(column=0, row=8)
 
-tk.Label(frm, text="github.com/utkuhalis/serverManager", background="#333", foreground="#fff").place(x=0,y=215)
+tk.Label(frm, text="github.com/utkuhalis", background="#333", foreground="#fff").place(x=0,y=215)
 
 ttk.Label(frm, text="   ", style="My.TLabel").grid(column=16, row=16)
 window.mainloop()
